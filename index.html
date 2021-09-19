@@ -1,36 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Is Your Birthday Number Lucky</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <title>Profit Or Loss</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="head">Stock Profile and Loss Calculator</h1>
 
-   <div class="container">
-    <h1 class="head">Stock Profile and Loss Calculator</h1>
+      <label for="initial-price">Initial Price</label>
+      <input
+        class="initial-price"
+        type="number"
+        placeholder="Enter Initial Price Here"
+      />
 
-    <label for="initial-price">Initial Price</label>
-    <input class="initial-price" type="number"  placeholder="Enter Initial Price Here"/>
+      <label for="stocks-Quantiy">Quantity Of Stocks</label>
+      <input
+        class="stocks-Quantiy"
+        type="number"
+        placeholder="Enter Quantity Here"
+      />
 
-    
-    <label for="stocks-Quantiy">Quantity Of Stocks</label>
-    <input class="stocks-Quantiy" type="number" placeholder="Enter Quantity Here"/>
+      <label for="current-price">Current Price</label>
+      <input
+        class="current-price"
+        type="number"
+        placeholder="Enter Current Price Here"
+      />
 
-    <label for="current-price">Current Price</label>
-    <input class="current-price" type="number" placeholder="Enter Current Price Here" />
+      <button class="check-result">Check Result</button>
 
-    <button class="check-result">Check Result</button>
+      <p class="result"></p>
+      
+    <footer class="main-footer">
+      <div class="footer-content">
+        <p class="footer-text">Made with ❤ by Abhay <br /></p>
 
-
-    <p class="result"></p>
-
-   </div>
+        <div class="social">
+          <a href="https://www.linkedin.com/in/abhaymishr/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+          <a href="https://github.com/abhaymishr" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+          
+        </div>
+      </div>
+    </footer>
+    </div>
     <script src="./index.js"></script>
-    
-
-    
-</body>
+  </body>
 </html>
