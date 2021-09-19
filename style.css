@@ -1,0 +1,52 @@
+body{
+    background-color:oldlace;
+}
+.container{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.head{
+
+    border: 1px solid black;
+    font-weight: bold;
+    font-size: 2rem;
+    background-color:coral;
+}
+
+
+.date-input{
+
+
+    padding:0.8rem;
+    background:coral;
+    
+
+
+}
+
+.input-number{
+
+
+    padding:0.8rem;
+    background: aqua;
+
+
+}
+
+label{
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+button{
+
+    margin-top: 10px ;
+    padding:0.5rem;
+    border: 1px solid black;
+    border-radius:10px ;
+    background:pink;
+
+}
